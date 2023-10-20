@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vuelos",
+  "info": {
+    "singularName": "vuelo",
+    "pluralName": "vuelos",
+    "displayName": "Vuelo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "origenDestino": {
+      "type": "string"
+    },
+    "horaSalida": {
+      "type": "date"
+    },
+    "horaLlegada": {
+      "type": "date"
+    },
+    "duracion": {
+      "type": "string"
+    }
+  }
+}
